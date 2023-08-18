@@ -1,17 +1,18 @@
 .registration-form {
   width: 500px;
-  height: 620px;
+  height: 42em;
   background-color: #f9f9f9;
 
   padding: 20px;
   margin-top: 10px;
 
   border: 1px solid #ccc;
+  border-radius: 20px;
 
   display: none;
 
   position: fixed;
-  top: 40%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -38,23 +39,11 @@
   border: 1px solid #ccc;
 }
 
-.registration-form button {
-  background-color: rgb(32, 80, 255);
-
-  padding: 10px;
-  margin: 10px 3px;
-
-  color: #fff;
-}
-
-.registration-form button:hover {
-  background-color: #0056b3;
-}
-
 
 .registration-form .uploaded-photo-container {
   width: 120px;
   height: 150px;
+  
   overflow: hidden;
   margin: 10px 0;
 }
@@ -67,4 +56,32 @@
 .registration-form #defaultPhoto {
   width: 120px;
   height: 150px;
+}
+
+/* 화면 너비가 768px 이하일 때의 스타일 */
+@media screen and (max-width: 768px) {
+  .registration-form {
+    width: 80%; 
+    max-width: 400px;
+    height: auto; 
+
+    padding: 10px; 
+  }
+
+  .registration-form h2 {
+    margin-bottom: 20px; 
+
+    font-size: 1em; 
+  }
+
+  .registration-form label {
+    margin-bottom: 3px; 
+  }
+
+  .registration-form input[type="text"],
+  .registration-form input[type="email"],
+  .registration-form input[type="tel"] {
+    padding: 3px; 
+    margin-bottom: 8px; 
+  }
 }

@@ -1,0 +1,70 @@
+.registration-form {
+  width: 500px;
+  height: 620px;
+  background-color: #f9f9f9;
+
+  padding: 20px;
+  margin-top: 10px;
+
+  border: 1px solid #ccc;
+
+  display: none;
+
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.registration-form h2 {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.registration-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="tel"] {
+  width: 100%;
+
+  padding: 5px;
+  margin-bottom: 10px;
+
+  border: 1px solid #ccc;
+}
+
+.registration-form button {
+  background-color: rgb(32, 80, 255);
+
+  padding: 10px;
+  margin: 10px 3px;
+
+  color: #fff;
+}
+
+.registration-form button:hover {
+  background-color: #0056b3;
+}
+
+
+.registration-form .uploaded-photo-container {
+  width: 120px;
+  height: 150px;
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+.registration-form .uploaded-photo-container img {
+  width: 100%;
+  height: auto;
+}
+
+.registration-form #defaultPhoto {
+  width: 120px;
+  height: 150px;
+}

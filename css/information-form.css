@@ -1,0 +1,59 @@
+.information-form {
+    width: 500px;
+    height: 420px;
+    background-color: #f9f9f9;
+  
+    padding: 20px;
+    margin-top: 10px;
+  
+    border: 1px solid #ccc;
+  
+    display: none;
+  
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .information-form h2 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+
+  .information-form .form-content {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .information-form .form-content div{
+    margin-bottom: 10px;
+  }
+
+  .information-form button {
+    background-color: rgb(32, 80, 255);
+  
+    padding: 10px;
+    margin: 10px 3px;
+  
+    color: #fff;
+  }
+
+  .information-form button:hover {
+    background-color: #0056b3;
+  }
+
+  
+
+  .information-form .emp-img img{
+    width: 120px;
+    height: 150px;
+    overflow: hidden;
+  }
+
+  
+  .registration-form #defaultPhoto {
+    width: 120px;
+    height: 150px;
+  }

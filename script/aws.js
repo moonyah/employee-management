@@ -32,7 +32,4 @@ function onFileUpload(e) {
         })
 }
 
-document.getElementById('photo').addEventListener('change', function(){
-    onFileUpload
-    console.log(onFileUpload);
-});
+document.getElementById('photo').addEventListener('change', onFileUpload);
